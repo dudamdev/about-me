@@ -9,8 +9,9 @@ body {
 }
 
 main {
-    width: 70%;
-    margin: auto;
+    min-width: 300px;
+    max-width: 900px;
+    margin: 0px auto;
     background: #F2F2F2;
     border-radius: 8px;
 }
@@ -66,6 +67,11 @@ strong {
 
 .gambare-link {
     text-decoration: none;
+    color: #D93D59;
+}
+
+.gambare-link::after {
+    content: '👆';
 }
 
 .gambare-link:hover {
@@ -153,7 +159,14 @@ footer {
     color: whitesmoke;
     text-align: center;
     background: #023E73;
-    padding: 5px;
+    padding: 2px;
+    margin-top: 16px;
     font-size: 0.7em;
     box-shadow: 1px 1px 8px 3px rgba(2, 62, 115, 0.5);
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #D93D59;
+    font-weight: bold;
 }
