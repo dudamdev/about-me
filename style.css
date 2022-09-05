@@ -92,6 +92,8 @@ strong {
 /* Naruto.html */
 
 .gambare-container {    
+    max-width: fit-content;
+    min-width: 300px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,0.5fr);
