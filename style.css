@@ -93,8 +93,8 @@ strong {
 
 .gambare-img {
    display: block;
-   max-width: fit-content;
-   min-width: 300px;
+   max-width: 50px;
+   min-width: 500px;
    margin: 150px auto;
    border-radius: 5px;
 }
