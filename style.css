@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to top, #F23D4C, #023E73);
+    font-family: sans-serif;
+    background-attachment: fixed;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    background: #F2F2F2;
+    border-radius: 8px;
+}
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    row-gap: 16px;
+    margin-bottom: 24px;
+}
+
+h1 {
+    background: linear-gradient(to top, #023E73, #35648C);
+    color: whitesmoke;
+    text-align: center;
+    padding: 8px 0px;
+    box-shadow: 3px 2px 6px 1px rgba(2, 62, 115, 0.50);
+    border-radius: 8px 8px 6px 6px;
+    margin-bottom: 8px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 30%;
+
+
+}
+
+.about-div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about {
+    text-align: justify;
+}
+
+strong {
+    color: #D93D59;
+}
+
+.gambare {
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: #D93D59;
+    margin-top: 8px;
+    
+}
+
+.gambare-link {
+    text-decoration: none;
+}
+
+.gambare-link:hover {
+    text-decoration: underline;
+    color: #D93D59;
+}
+
+.gambare-link:active {
+    text-decoration: none;
+    color: rgba(217, 61, 90, 0.5);
+}
+
+.gambare-link:visited {
+    text-decoration: underline;
+    color: #D93D59;
+}
+
+/* Naruto.html */
+
+.gambare-container {    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,0.5fr);
+}
+
+.gambare-img {
+    width: 38rem;
+    grid-column-start: 2;  
+    grid-row-start: 2;
+    border-radius: 10px;
+}
+
+/*  */
+
+.subjects {
+    width: 70%;
+    margin: 24px auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;            
+    background-color: #D93D59;
+    padding: 16px;
+    border-radius: 20px;
+    color: whitesmoke;
+    box-shadow: 1px 1px 5px 2px rgba(217, 61, 90, 0.5);
+}
+
+ul {
+    list-style: '✔ ';
+    margin-top: 8px;
+}
+
+.social {
+    text-align: center;
+    background: linear-gradient(to right, rgba(2, 62, 115, 0.3), rgba(53, 99, 140, 0.1));
+    padding: 5px;
+    border: radius 5px;;
+    box-shadow: 1px 1px 2px 1px #023e732f;
+    margin-bottom: 20px;
+}
+
+.social-container {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+.social-img {
+    width: 5rem;
+    
+    margin-bottom: 16px;
+}
+
+.social-img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+footer {
+    color: whitesmoke;
+    text-align: center;
+    background: #023E73;
+    padding: 5px;
+    font-size: 0.7em;
+    box-shadow: 1px 1px 8px 3px rgba(2, 62, 115, 0.5);
+}
