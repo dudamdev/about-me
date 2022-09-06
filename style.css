@@ -90,12 +90,18 @@ strong {
 }
 
 /* Naruto.html */
+.gambare-body {
+    height: 93vh;
+    position: relative;
+}
 
 .gambare-img {
-   display: block;
-   max-width: 350px;
-   margin: 150px auto;
-   border-radius: 5px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 35rem;
 }
 
 /*  */
